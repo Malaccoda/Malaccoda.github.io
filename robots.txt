@@ -1,0 +1,4 @@
+Sitemap: https://githubpages.github.com/sitemapindex.xml
+
+User-Agent: *
+Host: githubpages.github.com
