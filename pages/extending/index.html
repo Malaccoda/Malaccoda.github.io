@@ -4,18 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <title>Extending Nikola | Malaclypse-Blog</title>
-<link href="/Malaclypse-Blog/assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
-<link rel="alternate" type="application/rss+xml" title="RSS (de)" href="/Malaclypse-Blog/rss.xml">
-<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="/Malaclypse-Blog/en/rss.xml">
-<link rel="canonical" href="https://malaccoda.github.io/Malaclypse-Blog/pages/extending/">
-<!--[if lt IE 9]><script src="/Malaclypse-Blog/assets/js/html5.js"></script><![endif]-->
+<link href="/assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS (de)" href="/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="/en/rss.xml">
+<link rel="canonical" href="https://malaccoda.github.io/pages/extending/">
+<!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]-->
 </head>
 <body class="home blog">
     <div id="wrap" style="width:850px">
         <div id="container" style="width:560px">
             
             
-<article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="/Malaclypse-Blog/pages/extending/" class="u-url">Extending Nikola</a></h1>
+<article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="/pages/extending/" class="u-url">Extending Nikola</a></h1>
 
         
 
@@ -33,33 +33,33 @@
 <p class="topic-title">Inhalt</p>
 <ul class="simple">
 <li>
-<p><a class="reference internal" href="/Malaclypse-Blog/pages/extending/#available-plugin-categories" id="id1">Available Plugin Categories</a></p>
+<p><a class="reference internal" href="/pages/extending/#available-plugin-categories" id="id1">Available Plugin Categories</a></p>
 <ul>
-<li><p><a class="reference internal" href="/Malaclypse-Blog/pages/extending/#command-plugins" id="id2">Command Plugins</a></p></li>
-<li><p><a class="reference internal" href="/Malaclypse-Blog/pages/extending/#templatesystem-plugins" id="id3">TemplateSystem Plugins</a></p></li>
-<li><p><a class="reference internal" href="/Malaclypse-Blog/pages/extending/#task-plugins" id="id4">Task Plugins</a></p></li>
-<li><p><a class="reference internal" href="/Malaclypse-Blog/pages/extending/#pagecompiler-plugins" id="id5">PageCompiler Plugins</a></p></li>
-<li><p><a class="reference internal" href="/Malaclypse-Blog/pages/extending/#metadataextractor-plugins" id="id6">MetadataExtractor Plugins</a></p></li>
-<li><p><a class="reference internal" href="/Malaclypse-Blog/pages/extending/#restextension-plugins" id="id7">RestExtension Plugins</a></p></li>
-<li><p><a class="reference internal" href="/Malaclypse-Blog/pages/extending/#markdownextension-plugins" id="id8">MarkdownExtension Plugins</a></p></li>
-<li><p><a class="reference internal" href="/Malaclypse-Blog/pages/extending/#signalhandler-plugins" id="id9">SignalHandler Plugins</a></p></li>
-<li><p><a class="reference internal" href="/Malaclypse-Blog/pages/extending/#configplugin-plugins" id="id10">ConfigPlugin Plugins</a></p></li>
-<li><p><a class="reference internal" href="/Malaclypse-Blog/pages/extending/#shortcode-plugins" id="id11">Shortcode Plugins</a></p></li>
-<li><p><a class="reference internal" href="/Malaclypse-Blog/pages/extending/#postscanner-plugins" id="id12">PostScanner Plugins</a></p></li>
+<li><p><a class="reference internal" href="/pages/extending/#command-plugins" id="id2">Command Plugins</a></p></li>
+<li><p><a class="reference internal" href="/pages/extending/#templatesystem-plugins" id="id3">TemplateSystem Plugins</a></p></li>
+<li><p><a class="reference internal" href="/pages/extending/#task-plugins" id="id4">Task Plugins</a></p></li>
+<li><p><a class="reference internal" href="/pages/extending/#pagecompiler-plugins" id="id5">PageCompiler Plugins</a></p></li>
+<li><p><a class="reference internal" href="/pages/extending/#metadataextractor-plugins" id="id6">MetadataExtractor Plugins</a></p></li>
+<li><p><a class="reference internal" href="/pages/extending/#restextension-plugins" id="id7">RestExtension Plugins</a></p></li>
+<li><p><a class="reference internal" href="/pages/extending/#markdownextension-plugins" id="id8">MarkdownExtension Plugins</a></p></li>
+<li><p><a class="reference internal" href="/pages/extending/#signalhandler-plugins" id="id9">SignalHandler Plugins</a></p></li>
+<li><p><a class="reference internal" href="/pages/extending/#configplugin-plugins" id="id10">ConfigPlugin Plugins</a></p></li>
+<li><p><a class="reference internal" href="/pages/extending/#shortcode-plugins" id="id11">Shortcode Plugins</a></p></li>
+<li><p><a class="reference internal" href="/pages/extending/#postscanner-plugins" id="id12">PostScanner Plugins</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="/Malaclypse-Blog/pages/extending/#plugin-index" id="id13">Plugin Index</a></p></li>
-<li><p><a class="reference internal" href="/Malaclypse-Blog/pages/extending/#path-link-resolution-mechanism" id="id14">Path/Link Resolution Mechanism</a></p></li>
-<li><p><a class="reference internal" href="/Malaclypse-Blog/pages/extending/#template-hooks" id="id15">Template Hooks</a></p></li>
+<li><p><a class="reference internal" href="/pages/extending/#plugin-index" id="id13">Plugin Index</a></p></li>
+<li><p><a class="reference internal" href="/pages/extending/#path-link-resolution-mechanism" id="id14">Path/Link Resolution Mechanism</a></p></li>
+<li><p><a class="reference internal" href="/pages/extending/#template-hooks" id="id15">Template Hooks</a></p></li>
 <li>
-<p><a class="reference internal" href="/Malaclypse-Blog/pages/extending/#shortcodes" id="id16">Shortcodes</a></p>
+<p><a class="reference internal" href="/pages/extending/#shortcodes" id="id16">Shortcodes</a></p>
 <ul>
-<li><p><a class="reference internal" href="/Malaclypse-Blog/pages/extending/#template-based-shortcodes" id="id17">Template-based Shortcodes</a></p></li>
+<li><p><a class="reference internal" href="/pages/extending/#template-based-shortcodes" id="id17">Template-based Shortcodes</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="/Malaclypse-Blog/pages/extending/#state-and-cache" id="id18">State and Cache</a></p></li>
-<li><p><a class="reference internal" href="/Malaclypse-Blog/pages/extending/#logging" id="id19">Logging</a></p></li>
-<li><p><a class="reference internal" href="/Malaclypse-Blog/pages/extending/#template-and-dependency-injection" id="id20">Template and Dependency Injection</a></p></li>
+<li><p><a class="reference internal" href="/pages/extending/#state-and-cache" id="id18">State and Cache</a></p></li>
+<li><p><a class="reference internal" href="/pages/extending/#logging" id="id19">Logging</a></p></li>
+<li><p><a class="reference internal" href="/pages/extending/#template-and-dependency-injection" id="id20">Template and Dependency Injection</a></p></li>
 </ul>
 </div>
 <p class="lead">Nikola is extensible. Almost all its functionality is based on plugins,
@@ -71,8 +71,8 @@ a <code class="docutils literal">__init__.py</code> file.</p>
 folder in your site.</p>
 <p>Plugins come in various flavours, aimed at extending different aspects
 of Nikola.</p>
-<section id="available-plugin-categories"><h2><a class="toc-backref" href="/Malaclypse-Blog/pages/extending/#id1">Available Plugin Categories</a></h2>
-<section id="command-plugins"><h3><a class="toc-backref" href="/Malaclypse-Blog/pages/extending/#id2">Command Plugins</a></h3>
+<section id="available-plugin-categories"><h2><a class="toc-backref" href="/pages/extending/#id1">Available Plugin Categories</a></h2>
+<section id="command-plugins"><h3><a class="toc-backref" href="/pages/extending/#id2">Command Plugins</a></h3>
 <p>When you run <code class="docutils literal">nikola <span class="pre">--help</span></code> you will see something like this:</p>
 <pre class="code console"><a id="rest_code_178d26b1d88b440187a9fb71307db45b-1" name="rest_code_178d26b1d88b440187a9fb71307db45b-1"></a><span class="gp">$ </span>nikola <span class="nb">help</span>
 <a id="rest_code_178d26b1d88b440187a9fb71307db45b-2" name="rest_code_178d26b1d88b440187a9fb71307db45b-2"></a><span class="go">Nikola is a tool to create static websites and blogs. For full documentation and more</span>
@@ -196,7 +196,7 @@ the docs for the Index</a>
 <p>So, what can you do with commands? Well, anything you want, really. I have implemented
 a sort of planet using it. So, be creative, and if you do something interesting,
 let me know ;-)</p>
-</section><section id="templatesystem-plugins"><h3><a class="toc-backref" href="/Malaclypse-Blog/pages/extending/#id3">TemplateSystem Plugins</a></h3>
+</section><section id="templatesystem-plugins"><h3><a class="toc-backref" href="/pages/extending/#id3">TemplateSystem Plugins</a></h3>
 <p>Nikola supports Mako and Jinja2. If you prefer some other templating
 system, then you will have to write a <code class="docutils literal">TemplateSystem</code> plugin. Here's how they work.
 First, you have to create a <code class="docutils literal">.plugin</code> file. Here's the one for the Mako plugin:</p>
@@ -268,7 +268,7 @@ a stub for a hypothetical system called "Templater":</p>
 <a id="rest_code_1909ba3859ee45578ebe5478815d9c52-46" name="rest_code_1909ba3859ee45578ebe5478815d9c52-46"></a>        <span class="k">pass</span>
 </pre>
 <p>You can see a real example in <a class="reference external" href="https://github.com/getnikola/nikola/blob/master/nikola/plugins/template/jinja.py">the Jinja plugin</a></p>
-</section><section id="task-plugins"><h3><a class="toc-backref" href="/Malaclypse-Blog/pages/extending/#id4">Task Plugins</a></h3>
+</section><section id="task-plugins"><h3><a class="toc-backref" href="/pages/extending/#id4">Task Plugins</a></h3>
 <p>If you want to do something that depends on the data in your site, you
 probably want to do a <code class="docutils literal">Task</code> plugin, which will make it be part of the
 <code class="docutils literal">nikola build</code> command. These are the currently available tasks, all
@@ -363,7 +363,7 @@ the docs for the Index</a>
 <a id="rest_code_81d8498dd7ee42efaea7e8415e9ea81d-41" name="rest_code_81d8498dd7ee42efaea7e8415e9ea81d-41"></a>                <span class="n">task</span><span class="p">[</span><span class="s1">'basename'</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span>
 <a id="rest_code_81d8498dd7ee42efaea7e8415e9ea81d-42" name="rest_code_81d8498dd7ee42efaea7e8415e9ea81d-42"></a>                <span class="c1"># If your task generates files, please do this.</span>
 <a id="rest_code_81d8498dd7ee42efaea7e8415e9ea81d-43" name="rest_code_81d8498dd7ee42efaea7e8415e9ea81d-43"></a>                <span class="k">yield</span> <span class="n">utils</span><span class="o">.</span><span class="n">apply_filters</span><span class="p">(</span><span class="n">task</span><span class="p">,</span> <span class="n">kw</span><span class="p">[</span><span class="s1">'filters'</span><span class="p">])</span>
-</pre></section><section id="pagecompiler-plugins"><h3><a class="toc-backref" href="/Malaclypse-Blog/pages/extending/#id5">PageCompiler Plugins</a></h3>
+</pre></section><section id="pagecompiler-plugins"><h3><a class="toc-backref" href="/pages/extending/#id5">PageCompiler Plugins</a></h3>
 <p>These plugins implement markup languages, they take sources for posts or pages and
 create HTML or other output files. A good example is <a class="reference external" href="https://github.com/getnikola/plugins/tree/master/v8/misaka">the misaka plugin</a> or the built-in
 compiler plugins.</p>
@@ -382,8 +382,8 @@ compiler plugins.</p>
 returns the preferred extension for the output file.</p>
 <p>These plugins can also be used to extract metadata from a file. To do so, the
 plugin must set <code class="docutils literal">supports_metadata</code> to <code class="docutils literal">True</code> and implement <code class="docutils literal">read_metadata</code> that will return a dict containing the
-metadata contained in the file. Optionally, it may list <code class="docutils literal">metadata_conditions</code> (see <a class="reference internal" href="/Malaclypse-Blog/pages/extending/#metadataextractor-plugins">MetadataExtractor Plugins</a> below)</p>
-</section><section id="metadataextractor-plugins"><h3><a class="toc-backref" href="/Malaclypse-Blog/pages/extending/#id6">MetadataExtractor Plugins</a></h3>
+metadata contained in the file. Optionally, it may list <code class="docutils literal">metadata_conditions</code> (see <a class="reference internal" href="/pages/extending/#metadataextractor-plugins">MetadataExtractor Plugins</a> below)</p>
+</section><section id="metadataextractor-plugins"><h3><a class="toc-backref" href="/pages/extending/#id6">MetadataExtractor Plugins</a></h3>
 <p>Plugins that extract metadata from posts. If they are based on post content,
 they must implement <code class="docutils literal">_extract_metadata_from_text</code> (takes source of a post
 returns a dict of metadata).  They may also implement
@@ -401,7 +401,7 @@ name, pip name, friendly name), <code class="docutils literal">map_from</code> (
 use, if any) and <code class="docutils literal">supports_write</code> (whether the extractor supports writing
 metadata in the desired format).</p>
 <p>For more details, see the definition in  <code class="docutils literal">plugin_categories.py</code> and default extractors in <code class="docutils literal">metadata_extractors.py</code>.</p>
-</section><section id="restextension-plugins"><h3><a class="toc-backref" href="/Malaclypse-Blog/pages/extending/#id7">RestExtension Plugins</a></h3>
+</section><section id="restextension-plugins"><h3><a class="toc-backref" href="/pages/extending/#id7">RestExtension Plugins</a></h3>
 <p>Implement directives for reStructuredText, see <a class="reference external" href="https://github.com/getnikola/nikola/blob/master/nikola/plugins/compile/rest/media.py">media.py</a> for a simple example.</p>
 <p>If your output depends on a config value, you need to make your post record a
 dependency on a pseudo-path, like this:</p>
@@ -412,11 +412,11 @@ dependency on a pseudo-path, like this:</p>
 <code class="docutils literal"><span class="pre">post-list</span></code> directive, where adding new posts to the site could make it
 stale), you should record a dependency on the pseudo-path
 <code class="docutils literal"><span class="pre">####MAGIC####TIMELINE</span></code>.</p>
-</section><section id="markdownextension-plugins"><h3><a class="toc-backref" href="/Malaclypse-Blog/pages/extending/#id8">MarkdownExtension Plugins</a></h3>
+</section><section id="markdownextension-plugins"><h3><a class="toc-backref" href="/pages/extending/#id8">MarkdownExtension Plugins</a></h3>
 <p>Implement Markdown extensions, see <a class="reference external" href="https://github.com/getnikola/nikola/blob/master/nikola/plugins/compile/markdown/mdx_nikola.py">mdx_nikola.py</a> for a simple example.</p>
 <p>Note that Python markdown extensions are often also available as separate
 packages. This is only meant to ship extensions along with Nikola.</p>
-</section><section id="signalhandler-plugins"><h3><a class="toc-backref" href="/Malaclypse-Blog/pages/extending/#id9">SignalHandler Plugins</a></h3>
+</section><section id="signalhandler-plugins"><h3><a class="toc-backref" href="/pages/extending/#id9">SignalHandler Plugins</a></h3>
 <p>These plugins extend the <code class="docutils literal">SignalHandler</code> class and connect to one or more
 signals via <a class="reference external" href="https://pythonhosted.org/blinker/">blinker</a>.</p>
 <p>The easiest way to do this is to reimplement <code class="docutils literal">set_site()</code> and just connect to
@@ -476,26 +476,26 @@ data is in the form:</p>
 </dd>
 </dl>
 <p>One example is the <a class="reference external" href="https://github.com/getnikola/plugins/tree/master/v7/deploy_hooks">deploy_hooks plugin.</a></p>
-</section><section id="configplugin-plugins"><h3><a class="toc-backref" href="/Malaclypse-Blog/pages/extending/#id10">ConfigPlugin Plugins</a></h3>
+</section><section id="configplugin-plugins"><h3><a class="toc-backref" href="/pages/extending/#id10">ConfigPlugin Plugins</a></h3>
 <p>Does nothing specific, can be used to modify the site object (and thus the config).</p>
 <p>Put all the magic you want in <code class="docutils literal">set_site()</code>, and don’t forget to run the one
 from <code class="docutils literal">super()</code>. Example plugin: <a class="reference external" href="https://github.com/getnikola/plugins/tree/master/v7/navstories">navstories</a></p>
-</section><section id="shortcode-plugins"><h3><a class="toc-backref" href="/Malaclypse-Blog/pages/extending/#id11">Shortcode Plugins</a></h3>
+</section><section id="shortcode-plugins"><h3><a class="toc-backref" href="/pages/extending/#id11">Shortcode Plugins</a></h3>
 <p>Shortcode Plugins are a simple way to create a custom shortcode handler.
 By default, the <code class="docutils literal">set_site</code> method will register the <code class="docutils literal">handler</code> method as a
 shortcode with the plugin’s <code class="docutils literal">name</code> as the shortcode name.</p>
-<p>See the <a class="reference internal" href="/Malaclypse-Blog/pages/extending/#shortcodes">Shortcodes</a> section for more details on shortcodes.</p>
-</section><section id="postscanner-plugins"><h3><a class="toc-backref" href="/Malaclypse-Blog/pages/extending/#id12">PostScanner Plugins</a></h3>
+<p>See the <a class="reference internal" href="/pages/extending/#shortcodes">Shortcodes</a> section for more details on shortcodes.</p>
+</section><section id="postscanner-plugins"><h3><a class="toc-backref" href="/pages/extending/#id12">PostScanner Plugins</a></h3>
 <p>Get posts and pages from "somewhere" to be added to the timeline.
 There are currently two plugins for this: the built-in <code class="docutils literal">scan_posts</code>, and
 <code class="docutils literal">pkgindex_scan</code> (in the Plugin Index), which is used to treat .plugin/.theme
 + README.md as posts to generate the Plugin and Theme Indexes.</p>
-</section></section><section id="plugin-index"><h2><a class="toc-backref" href="/Malaclypse-Blog/pages/extending/#id13">Plugin Index</a></h2>
+</section></section><section id="plugin-index"><h2><a class="toc-backref" href="/pages/extending/#id13">Plugin Index</a></h2>
 <p>There is a <a class="reference external" href="https://plugins.getnikola.com/">plugin index</a>, which stores all
 of the plugins for Nikola people wanted to share with the world.</p>
 <p>You may want to read the <a class="reference external" href="https://github.com/getnikola/plugins/blob/master/README.md">README for the Index</a> if you want to
 publish your package there.</p>
-</section><section id="path-link-resolution-mechanism"><h2><a class="toc-backref" href="/Malaclypse-Blog/pages/extending/#id14">Path/Link Resolution Mechanism</a></h2>
+</section><section id="path-link-resolution-mechanism"><h2><a class="toc-backref" href="/pages/extending/#id14">Path/Link Resolution Mechanism</a></h2>
 <p>Any plugin can register a function using <code class="docutils literal">Nikola.register_path_handler</code> to
 allow resolution of paths and links. These are useful for templates, which
 can access them via <code class="docutils literal">_link</code>.</p>
@@ -511,7 +511,7 @@ by using <code class="docutils literal"><span class="pre">_link('tag_rss',</span
 <a id="rest_code_c1cdfdd44df04129861c138ce83b3598-7" name="rest_code_c1cdfdd44df04129861c138ce83b3598-7"></a>    <span class="k">return</span> <span class="p">[</span><span class="n">_f</span> <span class="k">for</span> <span class="n">_f</span> <span class="ow">in</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">site</span><span class="o">.</span><span class="n">config</span><span class="p">[</span><span class="s1">'TRANSLATIONS'</span><span class="p">][</span><span class="n">lang</span><span class="p">],</span>
 <a id="rest_code_c1cdfdd44df04129861c138ce83b3598-8" name="rest_code_c1cdfdd44df04129861c138ce83b3598-8"></a>                          <span class="bp">self</span><span class="o">.</span><span class="n">site</span><span class="o">.</span><span class="n">config</span><span class="p">[</span><span class="s1">'TAG_PATH'</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">slugify_name</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">lang</span><span class="p">)</span> <span class="o">+</span> <span class="s2">".xml"</span><span class="p">]</span> <span class="k">if</span>
 <a id="rest_code_c1cdfdd44df04129861c138ce83b3598-9" name="rest_code_c1cdfdd44df04129861c138ce83b3598-9"></a>            <span class="n">_f</span><span class="p">]</span>
-</pre></section><section id="template-hooks"><h2><a class="toc-backref" href="/Malaclypse-Blog/pages/extending/#id15">Template Hooks</a></h2>
+</pre></section><section id="template-hooks"><h2><a class="toc-backref" href="/pages/extending/#id15">Template Hooks</a></h2>
 <p>Plugins can use a hook system for adding stuff into templates.  In order to use
 it, a plugin must register itself.  The following hooks currently exist:</p>
 <ul class="simple">
@@ -560,7 +560,7 @@ arguments.  Example use:</p>
 <li><p>if the input is a callable, it attempts <code class="docutils literal">input.template_registry_identifier</code>, then <code class="docutils literal">input.__doc__</code>, and if neither is available, it uses a static string.</p></li>
 </ul>
 <p>Make sure to provide at least a docstring, or a identifier, to ensure rebuilds work properly.</p>
-</section><section id="shortcodes"><h2><a class="toc-backref" href="/Malaclypse-Blog/pages/extending/#id16">Shortcodes</a></h2>
+</section><section id="shortcodes"><h2><a class="toc-backref" href="/pages/extending/#id16">Shortcodes</a></h2>
 <p>Some (hopefully all) markup compilers support shortcodes in these forms:</p>
 <pre class="code text"><a id="rest_code_7311cd8ef1d3440ab06d254c961567ee-1" name="rest_code_7311cd8ef1d3440ab06d254c961567ee-1"></a>{{% foo %}}  # No arguments
 <a id="rest_code_7311cd8ef1d3440ab06d254c961567ee-2" name="rest_code_7311cd8ef1d3440ab06d254c961567ee-2"></a>  # One argument, containing "bar"
@@ -632,7 +632,7 @@ arguments in the function call.</p>
 shortcode named <code class="docutils literal">foo</code>, this will result in the following call when the above
 shortcode is encountered:</p>
 <pre class="literal-block">foo_handler("bar", "beep", baz="bat", data="Some text", site=whatever)</pre>
-<section id="template-based-shortcodes"><h3><a class="toc-backref" href="/Malaclypse-Blog/pages/extending/#id17">Template-based Shortcodes</a></h3>
+<section id="template-based-shortcodes"><h3><a class="toc-backref" href="/pages/extending/#id17">Template-based Shortcodes</a></h3>
 <p>Another way to define a new shortcode is to add a template file to the
 <code class="docutils literal">shortcodes</code> directory of your site. The template file must have the
 shortcode name as the basename and the extension <code class="docutils literal">.tmpl</code>. For example, if you
@@ -654,7 +654,7 @@ syntax in this example)</p>
 </pre>
 <p>Will result in this output</p>
 <pre class="code html"><a id="rest_code_908f71faf1d04c02b295aae0e1595865-1" name="rest_code_908f71faf1d04c02b295aae0e1595865-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"spam"</span><span class="p">&gt;</span>baz<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-</pre></section></section><section id="state-and-cache"><h2><a class="toc-backref" href="/Malaclypse-Blog/pages/extending/#id18">State and Cache</a></h2>
+</pre></section></section><section id="state-and-cache"><h2><a class="toc-backref" href="/pages/extending/#id18">State and Cache</a></h2>
 <p>Sometimes your plugins will need to cache things to speed up further actions. Here are the conventions for that:</p>
 <ul class="simple">
 <li><p>If it's a file, put it somewhere in <code class="docutils literal"><span class="pre">self.site.config['CACHE_FOLDER']</span></code> (defaults to <code class="docutils literal">cache/</code>.</p></li>
@@ -674,12 +674,12 @@ The key should be a string, the value should be json-encodable (so, be careful w
 the key is not there, you will get <code class="docutils literal">None</code> and like it. They are meant to be both threadsafe, but hey, who can
 guarantee that sort of thing?</p>
 <p>There are no sections, and no access protection, so let's not use it to store passwords and such. Use responsibly.</p>
-</section><section id="logging"><h2><a class="toc-backref" href="/Malaclypse-Blog/pages/extending/#id19">Logging</a></h2>
+</section><section id="logging"><h2><a class="toc-backref" href="/pages/extending/#id19">Logging</a></h2>
 <p>Plugins often need to produce messages to the screen. All plugins get a logger object (<code class="docutils literal">self.logger</code>) by default,
 configured to work with Nikola (logging level, colorful output, plugin name as the logger name). If you need, you can
 also use the global (<code class="docutils literal">nikola.utils.LOGGER</code>) logger, or you can instantiate custom loggers with
 <code class="docutils literal">nikola.utils.get_logger</code> or the <code class="docutils literal">nikola.log</code> module.</p>
-</section><section id="template-and-dependency-injection"><h2><a class="toc-backref" href="/Malaclypse-Blog/pages/extending/#id20">Template and Dependency Injection</a></h2>
+</section><section id="template-and-dependency-injection"><h2><a class="toc-backref" href="/pages/extending/#id20">Template and Dependency Injection</a></h2>
 <p>Plugins have access to two injection facilities.</p>
 <p>If your plugin needs custom templates for its features (adding pages, displaying stuff, etc.), you can put them in the
 <code class="docutils literal">templates/mako</code> and <code class="docutils literal">templates/jinja</code> subfolders in your plugin’s folder. Note that those templates have a very low
@@ -697,13 +697,13 @@ consider other facilities first (eg. adding post dependencies).</p>
         <div id="sidebar">
             <!--Sidebar content-->
             <h1 id="blog-title">
-                <a href="https://malaccoda.github.io/Malaclypse-Blog/" title="Malaclypse-Blog">Malaclypse-Blog</a>
+                <a href="https://malaccoda.github.io/" title="Malaclypse-Blog">Malaclypse-Blog</a>
             </h1>
             
             <small>
                 Auch verfügbar in: 
                 
-            <li><a href="https://malaccoda.github.io/Malaclypse-Blog/en/" rel="alternate" hreflang="en">English</a></li>
+            <li><a href="https://malaccoda.github.io/en/" rel="alternate" hreflang="en">English</a></li>
 
             </small>
             
@@ -711,19 +711,19 @@ consider other facilities first (eg. adding post dependencies).</p>
 <li>
             
                 <li>
-<a href="/Malaclypse-Blog/archive.html">Archiv</a>
+<a href="/archive.html">Archiv</a>
                 </li>
 <li>
-<a href="/Malaclypse-Blog/categories/">Tags</a>
+<a href="/categories/">Tags</a>
                 </li>
 <li>
-<a href="/Malaclypse-Blog/rss.xml">RSS-Feed</a>
+<a href="/rss.xml">RSS-Feed</a>
 
             </li>
 <li>
 <!-- DuckDuckGo custom search -->
 <form method="get" id="search" action="https://duckduckgo.com/" class="navbar-form pull-left">
-<input type="hidden" name="sites" value="https://malaccoda.github.io/Malaclypse-Blog/"><input type="hidden" name="k8" value="#444444"><input type="hidden" name="k9" value="#D51920"><input type="hidden" name="kt" value="h"><input type="text" name="q" maxlength="255" placeholder="Search…" class="span2" style="margin-top: 4px;"><input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
+<input type="hidden" name="sites" value="https://malaccoda.github.io/"><input type="hidden" name="k8" value="#444444"><input type="hidden" name="k9" value="#D51920"><input type="hidden" name="kt" value="h"><input type="text" name="q" maxlength="255" placeholder="Search…" class="span2" style="margin-top: 4px;"><input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
 </form>
 <!-- End of custom search -->
 </li>
@@ -737,7 +737,7 @@ consider other facilities first (eg. adding post dependencies).</p>
         </div>
     </div>
     
-            <script src="/Malaclypse-Blog/assets/js/all-nocdn.js"></script><script>
+            <script src="/assets/js/all-nocdn.js"></script><script>
     baguetteBox.run('div#content', {
         ignoreClass: 'islink',
         captions: function(element) {
