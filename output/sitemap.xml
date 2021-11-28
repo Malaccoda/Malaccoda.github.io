@@ -6,238 +6,238 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://githubpages.github.com/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/2012/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/2012/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/archive.html</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/archive.html</loc>
+  <lastmod>2021-11-28T03:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/categories/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/categories/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/categories/blog/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/categories/blog/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/categories/cat_nikola/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/categories/cat_nikola/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/categories/demo/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/categories/demo/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/categories/nikola/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/categories/nikola/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/categories/python/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/categories/python/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/en/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/2012/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/en/2012/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/archive.html</loc>
+  <lastmod>2021-11-28T03:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/categories/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/en/archive.html</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/categories/blog/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/en/categories/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/categories/cat_nikola/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/en/categories/blog/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/categories/demo/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/en/categories/cat_nikola/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/categories/nikola/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/en/categories/demo/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/categories/python/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/en/categories/nikola/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/galleries/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/en/categories/python/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/galleries/demo/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/en/galleries/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/pages/about-nikola/</loc>
+  <lastmod>2021-11-14T17:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="de" href="https://malaccoda.github.io/Malaclypse-Blog/pages/about-nikola/" />
+ </url>
+ <url>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/pages/bootstrap-demo/</loc>
+  <lastmod>2021-11-14T17:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="de" href="https://malaccoda.github.io/Malaclypse-Blog/pages/bootstrap-demo/" />
+ </url>
+ <url>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/pages/charts/</loc>
+  <lastmod>2021-11-14T17:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="de" href="https://malaccoda.github.io/Malaclypse-Blog/pages/charts/" />
+ </url>
+ <url>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/pages/creating-a-theme/</loc>
+  <lastmod>2021-11-14T17:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="de" href="https://malaccoda.github.io/Malaclypse-Blog/pages/creating-a-theme/" />
+ </url>
+ <url>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/pages/dr-nikolas-vendetta/</loc>
+  <lastmod>2021-11-14T17:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="de" href="https://malaccoda.github.io/Malaclypse-Blog/pages/dr-nikolas-vendetta/" />
+ </url>
+ <url>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/pages/extending/</loc>
+  <lastmod>2021-11-14T17:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="de" href="https://malaccoda.github.io/Malaclypse-Blog/pages/extending/" />
+ </url>
+ <url>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/pages/handbook/</loc>
+  <lastmod>2021-11-14T17:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="de" href="https://malaccoda.github.io/Malaclypse-Blog/pages/handbook/" />
+ </url>
+ <url>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/pages/internals/</loc>
+  <lastmod>2021-11-14T17:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="de" href="https://malaccoda.github.io/Malaclypse-Blog/pages/internals/" />
+ </url>
+ <url>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/pages/listings-demo/</loc>
+  <lastmod>2021-11-14T17:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="de" href="https://malaccoda.github.io/Malaclypse-Blog/pages/listings-demo/" />
+ </url>
+ <url>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/pages/path-handlers/</loc>
+  <lastmod>2021-11-14T17:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="de" href="https://malaccoda.github.io/Malaclypse-Blog/pages/path-handlers/" />
+ </url>
+ <url>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/pages/quickref/</loc>
+  <lastmod>2021-11-14T17:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="de" href="https://malaccoda.github.io/Malaclypse-Blog/pages/quickref/" />
+ </url>
+ <url>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/pages/quickstart/</loc>
+  <lastmod>2021-11-14T17:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="de" href="https://malaccoda.github.io/Malaclypse-Blog/pages/quickstart/" />
+ </url>
+ <url>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/pages/social_buttons/</loc>
+  <lastmod>2021-11-14T17:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="de" href="https://malaccoda.github.io/Malaclypse-Blog/pages/social_buttons/" />
+ </url>
+ <url>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/pages/theming/</loc>
+  <lastmod>2021-11-14T17:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="de" href="https://malaccoda.github.io/Malaclypse-Blog/pages/theming/" />
+ </url>
+ <url>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/en/posts/welcome-to-nikola/</loc>
+  <lastmod>2021-11-14T17:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="de" href="https://malaccoda.github.io/Malaclypse-Blog/posts/welcome-to-nikola/" />
+ </url>
+ <url>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/galleries/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/en/galleries/demo/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/galleries/demo/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/en/pages/about-nikola/</loc>
-  <lastmod>2021-11-14T17:51:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="de" href="https://githubpages.github.com/pages/about-nikola/" />
- </url>
- <url>
-  <loc>https://githubpages.github.com/en/pages/bootstrap-demo/</loc>
-  <lastmod>2021-11-14T17:51:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="de" href="https://githubpages.github.com/pages/bootstrap-demo/" />
- </url>
- <url>
-  <loc>https://githubpages.github.com/en/pages/charts/</loc>
-  <lastmod>2021-11-14T17:51:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="de" href="https://githubpages.github.com/pages/charts/" />
- </url>
- <url>
-  <loc>https://githubpages.github.com/en/pages/creating-a-theme/</loc>
-  <lastmod>2021-11-14T17:51:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="de" href="https://githubpages.github.com/pages/creating-a-theme/" />
- </url>
- <url>
-  <loc>https://githubpages.github.com/en/pages/dr-nikolas-vendetta/</loc>
-  <lastmod>2021-11-14T17:51:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="de" href="https://githubpages.github.com/pages/dr-nikolas-vendetta/" />
- </url>
- <url>
-  <loc>https://githubpages.github.com/en/pages/extending/</loc>
-  <lastmod>2021-11-14T17:51:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="de" href="https://githubpages.github.com/pages/extending/" />
- </url>
- <url>
-  <loc>https://githubpages.github.com/en/pages/handbook/</loc>
-  <lastmod>2021-11-14T17:51:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="de" href="https://githubpages.github.com/pages/handbook/" />
- </url>
- <url>
-  <loc>https://githubpages.github.com/en/pages/internals/</loc>
-  <lastmod>2021-11-14T17:51:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="de" href="https://githubpages.github.com/pages/internals/" />
- </url>
- <url>
-  <loc>https://githubpages.github.com/en/pages/listings-demo/</loc>
-  <lastmod>2021-11-14T17:51:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="de" href="https://githubpages.github.com/pages/listings-demo/" />
- </url>
- <url>
-  <loc>https://githubpages.github.com/en/pages/path-handlers/</loc>
-  <lastmod>2021-11-14T17:51:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="de" href="https://githubpages.github.com/pages/path-handlers/" />
- </url>
- <url>
-  <loc>https://githubpages.github.com/en/pages/quickref/</loc>
-  <lastmod>2021-11-14T17:51:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="de" href="https://githubpages.github.com/pages/quickref/" />
- </url>
- <url>
-  <loc>https://githubpages.github.com/en/pages/quickstart/</loc>
-  <lastmod>2021-11-14T17:51:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="de" href="https://githubpages.github.com/pages/quickstart/" />
- </url>
- <url>
-  <loc>https://githubpages.github.com/en/pages/social_buttons/</loc>
-  <lastmod>2021-11-14T17:51:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="de" href="https://githubpages.github.com/pages/social_buttons/" />
- </url>
- <url>
-  <loc>https://githubpages.github.com/en/pages/theming/</loc>
-  <lastmod>2021-11-14T17:51:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="de" href="https://githubpages.github.com/pages/theming/" />
- </url>
- <url>
-  <loc>https://githubpages.github.com/en/posts/welcome-to-nikola/</loc>
-  <lastmod>2021-11-14T17:51:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="de" href="https://githubpages.github.com/posts/welcome-to-nikola/" />
- </url>
- <url>
-  <loc>https://githubpages.github.com/galleries/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/listings/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/galleries/demo/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/listings/__pycache__/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/listings/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/listings/hello.py.html</loc>
+  <lastmod>2021-11-28T03:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/pages/about-nikola/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/listings/__pycache__/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/pages/bootstrap-demo/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/listings/hello.py.html</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/pages/charts/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/pages/about-nikola/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/pages/creating-a-theme/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/pages/bootstrap-demo/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/pages/dr-nikolas-vendetta/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/pages/charts/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/pages/extending/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/pages/creating-a-theme/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/pages/handbook/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/pages/dr-nikolas-vendetta/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/pages/internals/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/pages/extending/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/pages/listings-demo/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/pages/handbook/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/pages/path-handlers/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/pages/internals/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/pages/quickref/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/pages/listings-demo/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/pages/quickstart/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/pages/path-handlers/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/pages/social_buttons/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/pages/quickref/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/pages/theming/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://githubpages.github.com/pages/quickstart/</loc>
-  <lastmod>2021-11-14T17:51:00Z</lastmod>
- </url>
- <url>
-  <loc>https://githubpages.github.com/pages/social_buttons/</loc>
-  <lastmod>2021-11-14T17:51:00Z</lastmod>
- </url>
- <url>
-  <loc>https://githubpages.github.com/pages/theming/</loc>
-  <lastmod>2021-11-14T17:51:00Z</lastmod>
- </url>
- <url>
-  <loc>https://githubpages.github.com/posts/welcome-to-nikola/</loc>
+  <loc>https://malaccoda.github.io/Malaclypse-Blog/posts/welcome-to-nikola/</loc>
   <lastmod>2021-11-14T17:51:00Z</lastmod>
  </url>
 </urlset>

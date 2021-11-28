@@ -17,10 +17,10 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Malaclypse"  # (translatable)
-BLOG_TITLE = "Malaclypses Blog"  # (translatable)
+BLOG_TITLE = "Malaclypse-Blog"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://githubpages.github.com/"
+SITE_URL = "https://malaccoda.github.io/Malaclypse-Blog/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://blog.malaclyp.se/"
