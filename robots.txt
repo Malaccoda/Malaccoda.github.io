@@ -1,4 +1,4 @@
-Sitemap: https://githubpages.github.com/sitemapindex.xml
+Sitemap: https://malaccoda.github.io/Malaclypse-Blog/sitemapindex.xml
 
 User-Agent: *
-Host: githubpages.github.com
+Host: malaccoda.github.io
