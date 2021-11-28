@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1638069160.8687854
+_modified_time = 1638070326.3488445
 _enable_loop = True
 _template_filename = 'themes/monospace/templates/index.tmpl'
 _template_uri = 'index.tmpl'
@@ -38,16 +38,16 @@ def render_body(context,**pageargs):
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         date_format = context.get('date_format', UNDEFINED)
         messages = context.get('messages', UNDEFINED)
-        helper = _mako_get_namespace(context, 'helper')
-        index_teasers = context.get('index_teasers', UNDEFINED)
-        def content():
-            return render_content(context._locals(__M_locals))
         comments = _mako_get_namespace(context, 'comments')
-        math = _mako_get_namespace(context, 'math')
         _link = context.get('_link', UNDEFINED)
-        posts = context.get('posts', UNDEFINED)
+        math = _mako_get_namespace(context, 'math')
         def extra_head():
             return render_extra_head(context._locals(__M_locals))
+        posts = context.get('posts', UNDEFINED)
+        index_teasers = context.get('index_teasers', UNDEFINED)
+        helper = _mako_get_namespace(context, 'helper')
+        def content():
+            return render_content(context._locals(__M_locals))
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -71,10 +71,10 @@ def render_body(context,**pageargs):
 def render_extra_head(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
-        posts = context.get('posts', UNDEFINED)
         math = _mako_get_namespace(context, 'math')
         def extra_head():
             return render_extra_head(context)
+        posts = context.get('posts', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer(str(math.math_styles_ifposts(posts)))
@@ -89,14 +89,14 @@ def render_content(context,**pageargs):
     try:
         date_format = context.get('date_format', UNDEFINED)
         messages = context.get('messages', UNDEFINED)
-        helper = _mako_get_namespace(context, 'helper')
+        comments = _mako_get_namespace(context, 'comments')
+        _link = context.get('_link', UNDEFINED)
+        math = _mako_get_namespace(context, 'math')
         index_teasers = context.get('index_teasers', UNDEFINED)
+        posts = context.get('posts', UNDEFINED)
+        helper = _mako_get_namespace(context, 'helper')
         def content():
             return render_content(context)
-        comments = _mako_get_namespace(context, 'comments')
-        math = _mako_get_namespace(context, 'math')
-        _link = context.get('_link', UNDEFINED)
-        posts = context.get('posts', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         for post in posts:
