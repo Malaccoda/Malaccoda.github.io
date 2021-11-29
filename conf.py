@@ -26,7 +26,7 @@ SITE_URL = "https://malaccoda.github.io/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://blog.malaclyp.se/"
 BLOG_EMAIL = "malaccoda@top-email.net"
-BLOG_DESCRIPTION = "techphilosophy"  # (translatable)
+BLOG_DESCRIPTION = "Einfuehrung in die diskordische Philosophie anhand informationstechnologischer Beispiele"  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -98,10 +98,10 @@ DEFAULT_LANG = "de"
 # What other languages do you have?
 # The format is {"translationcode" : "path/to/translation" }
 # the path will be used as a prefix for the generated pages location
-TRANSLATIONS = {
-    DEFAULT_LANG: "",
-    "en": "./en",
-}
+# TRANSLATIONS = {
+#    DEFAULT_LANG: "",
+#    "en": "./en",
+# }
 
 # What will translated input files be named like?
 
@@ -111,7 +111,7 @@ TRANSLATIONS = {
 # this pattern is also used for metadata:
 #     something.meta -> something.pl.meta
 
-TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
+#TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 # Links for the sidebar / navigation bar.  (translatable)
 # This is a dict.  The keys are languages, and values are tuples.
@@ -141,8 +141,7 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/categories/", "Tags"),
-        ("/impressum/", "Impressum"),
-        ("/rss.xml", "RSS-Feed"),
+        ("/pages/impressum/", "Impressum"),
     ),
 }
 #    "en": (
@@ -162,8 +161,8 @@ NAVIGATION_ALT_LINKS = {
 
 # DEFAULT_LANG: ()
 # Name of the theme to use.
+HACK_VARIANT = "dark"
 THEME = "hack"
-HACK_VARIANT = 'dark'
 
 # A theme color. In default themes, it might be displayed by some browsers as
 # the browser UI color (eg. Chrome on Android). Other themes might also use it
@@ -996,7 +995,7 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="/impressum">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+CONTENT_FOOTER = 'Contents &copy; {date}         <a href="/impressum">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license} <br> <a href="/rss.xml">RSS-Feed</a>'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -1025,7 +1024,7 @@ CONTENT_FOOTER_FORMATS = {
 
 # A simple copyright tag for inclusion in RSS feeds that works just
 # like CONTENT_FOOTER and CONTENT_FOOTER_FORMATS
-RSS_COPYRIGHT = 'Contents © {date} <a href="/impressum">{author}</a> {license}'
+RSS_COPYRIGHT = 'Contents © {date} <a href="/pages/impressum">{author}</a> {license}'
 RSS_COPYRIGHT_PLAIN = 'Contents © {date} {author} {license}'
 RSS_COPYRIGHT_FORMATS = CONTENT_FOOTER_FORMATS
 
