@@ -1,4 +1,0 @@
-Sitemap: https://malaccoda.github.io/sitemapindex.xml
-
-User-Agent: *
-Host: malaccoda.github.io
