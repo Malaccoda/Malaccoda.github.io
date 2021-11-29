@@ -11,7 +11,7 @@
  </url>
  <url>
   <loc>https://malaccoda.github.io/archive.html</loc>
-  <lastmod>2021-11-29T07:00:00Z</lastmod>
+  <lastmod>2021-11-29T07:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://malaccoda.github.io/categories/</loc>
@@ -35,7 +35,7 @@
  </url>
  <url>
   <loc>https://malaccoda.github.io/en/archive.html</loc>
-  <lastmod>2021-11-29T07:00:00Z</lastmod>
+  <lastmod>2021-11-29T07:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://malaccoda.github.io/en/categories/</loc>
@@ -62,69 +62,13 @@
   <lastmod>2021-11-28T03:32:00Z</lastmod>
  </url>
  <url>
-  <loc>https://malaccoda.github.io/en/pages/about-nikola/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/en/pages/bootstrap-demo/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/en/pages/charts/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/en/pages/creating-a-theme/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/en/pages/dr-nikolas-vendetta/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/en/pages/extending/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/en/pages/handbook/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
   <loc>https://malaccoda.github.io/en/pages/impressum/</loc>
-  <lastmod>2021-11-29T06:32:00Z</lastmod>
+  <lastmod>2021-11-29T07:00:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://malaccoda.github.io/pages/impressum/" />
  </url>
  <url>
-  <loc>https://malaccoda.github.io/en/pages/internals/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/en/pages/listings-demo/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/en/pages/path-handlers/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/en/pages/quickref/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/en/pages/quickstart/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/en/pages/social_buttons/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/en/pages/theming/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
   <loc>https://malaccoda.github.io/en/posts/wozu-dieser-blog/</loc>
-  <lastmod>2021-11-29T03:05:00Z</lastmod>
+  <lastmod>2021-11-29T07:00:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://malaccoda.github.io/posts/wozu-dieser-blog/" />
  </url>
  <url>
@@ -145,70 +89,14 @@
  </url>
  <url>
   <loc>https://malaccoda.github.io/listings/hello.py.html</loc>
-  <lastmod>2021-11-29T07:00:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/pages/about-nikola/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/pages/bootstrap-demo/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/pages/charts/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/pages/creating-a-theme/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/pages/dr-nikolas-vendetta/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/pages/extending/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/pages/handbook/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
+  <lastmod>2021-11-29T07:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://malaccoda.github.io/pages/impressum/</loc>
-  <lastmod>2021-11-29T06:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/pages/internals/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/pages/listings-demo/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/pages/path-handlers/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/pages/quickref/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/pages/quickstart/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/pages/social_buttons/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://malaccoda.github.io/pages/theming/</loc>
-  <lastmod>2021-11-28T03:32:00Z</lastmod>
+  <lastmod>2021-11-29T07:00:00Z</lastmod>
  </url>
  <url>
   <loc>https://malaccoda.github.io/posts/wozu-dieser-blog/</loc>
-  <lastmod>2021-11-29T03:05:00Z</lastmod>
+  <lastmod>2021-11-29T07:00:00Z</lastmod>
  </url>
 </urlset>
