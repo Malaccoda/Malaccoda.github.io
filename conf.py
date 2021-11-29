@@ -26,7 +26,7 @@ SITE_URL = "https://malaccoda.github.io/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://blog.malaclyp.se/"
 BLOG_EMAIL = "malaccoda@top-email.net"
-BLOG_DESCRIPTION = "Einfuehrung in die diskordische Philosophie anhand informationstechnologischer Beispiele"  # (translatable)
+BLOG_DESCRIPTION = "Einfuehrung in die diskordische Philosophie anhand informationstechnologischer Beispiele"
 
 # Nikola is multilingual!
 #
@@ -111,7 +111,8 @@ DEFAULT_LANG = "de"
 # this pattern is also used for metadata:
 #     something.meta -> something.pl.meta
 
-#TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
+# TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
+
 
 # Links for the sidebar / navigation bar.  (translatable)
 # This is a dict.  The keys are languages, and values are tuples.
@@ -411,26 +412,26 @@ TAG_PAGES_ARE_INDEXES = True
 # Set descriptions for tag pages to make them more interesting. The
 # default is no description. The value is used in the meta description
 # and displayed underneath the tag list or index page’s title.
-TAG_DESCRIPTIONS = {
-    DEFAULT_LANG: {
 # "blogging": "Blog der Ahnungslosigkeit",
 # "open source": "Meine Reise durch die wunderbare Welt der unendlichen Code Zeilen.",
 # "philosophy": "Meine ernuechternden Erfahrungen in der moderne Welt"
+TAG_DESCRIPTIONS = {
+    DEFAULT_LANG: {
         "magie": "Hilfreiche Tipps fuer angehende Shell-Magier",
         "diskordianismus": "Diskordische Weisheiten."
-   },
- }
+    },
+}
 
 # Set special titles for tag pages. The default is "Posts about TAG".
-TAG_TITLES = {
-    DEFAULT_LANG: {
 # "blogging": "gesammelte Werke des Unverstaendnis",
 # "open source": "Einsichten eines Laien",
 # "philosophy": "Einsichten eines Misanthropen"
-    "magie": "Zaubersprueche, Daemonenbeschwoerungen und andere Rituale",
-    "diskordianismus": "Pfeiff nicht wenn du pisst"
+TAG_TITLES = {
+    DEFAULT_LANG: {
+        "magie": "Zaubersprueche, Daemonenbeschwoerungen und andere Rituale",
+        "diskordianismus": "Pfeiff nicht wenn du pisst"
     },
- }
+}
 
 # If you do not want to display a tag publicly, you can mark it as hidden.
 # The tag will not be displayed on the tag list page and posts.
@@ -490,23 +491,23 @@ CATEGORY_PAGES_ARE_INDEXES = True
 # Set descriptions for category pages to make them more interesting. The
 # default is no description. The value is used in the meta description
 # and displayed underneath the category list or index page’s title.
-CATEGORY_DESCRIPTIONS = {
-    DEFAULT_LANG: {
 # "open source": "Meine Reise durch die wunderbare Welt der unendlichen Code Zeilen.",
 # "philosophy": "Meine ernuechternden Erfahrungen in der moderne Welt"
+CATEGORY_DESCRIPTIONS = {
+    DEFAULT_LANG: {
         "magie": "Hilfreiche Tipps fuer angehende Shell-Magier",
         "diskordianismus": "Diskordische Weisheiten."
     },
  }
 
 # Set special titles for category pages. The default is "Posts about CATEGORY".
-CATEGORY_TITLES = {
-    DEFAULT_LANG: {
 # "blogging": "gesammelte Werke des Unverstaendnis",
 # "open source": "Einsichten eines Laien",
 # "philosophy": "Einsichten eines Misanthropen"
-    "magie": "Zaubersprueche, Daemonenbeschwoerungen und andere Rituale",
-    "diskordianismus": "Pfeiff nicht wenn du pisst"
+CATEGORY_TITLES = {
+    DEFAULT_LANG: {
+        "magie": "Zaubersprueche, Daemonenbeschwoerungen und andere Rituale",
+        "diskordianismus": "Pfeiff nicht wenn du pisst"
     },
  }
 
@@ -576,8 +577,6 @@ AUTHOR_PAGES_ARE_INDEXES = True
 # and displayed underneath the author list or index page’s title.
 AUTHOR_PAGES_DESCRIPTIONS = {
     DEFAULT_LANG: {
-#        "Juanjo Conti": "Python coder and writer.",
-#        "Roberto Alsina": "Nikola father."
         "malaclypse": "Von uns gibt es viele, ich bin der Duemmere"
     },
 }
@@ -737,9 +736,9 @@ CACHE_FOLDER = 'cache'
 # <https://getnikola.com/handbook.html#post-processing-filters>
 #
 # from nikola import filters
-#FILTERS = {/
+# FILTERS = {/
 #   ".jpg": ["jpegoptim --strip-all -m75 -v %s"]
-#}
+# }
 # ".js": [filters.closure_compiler],
 
 # Executable for the "yui_compressor" filter (defaults to 'yui-compressor').
@@ -1346,12 +1345,12 @@ TYPES_TO_HIDE_TITLE = ['micro']
 # Uncomment and modify to following lines to match your accounts.
 # Images displayed come from the `previewimage` meta tag.
 # You can specify the card type by using the `card` parameter in TWITTER_CARD.
+# see https://dev.twitter.com/cards/types
+# 'creator': '@username',     # Username for the content creator / author.
 TWITTER_CARD = {
-   # 'use_twitter_cards': True,  # enable Twitter Cards
-   # 'card': 'summary',          # Card type, you can also use 'summary_large_image',
-#                                   # see https://dev.twitter.com/cards/types
-    # 'site': '@malaclypse',         # twitter nick for the website
-#     # 'creator': '@username',     # Username for the content creator / author.
+    'use_twitter_cards': True,  # enable Twitter Cards
+    'card': 'summary',          # Card type, you can also use 'summary_large_image',
+    'site': '@malaclypse'         # twitter nick for the website
 }
 
 # Bundle JS and CSS into single files to make site loading faster in a HTTP/1.1
@@ -1418,7 +1417,7 @@ WARN_ABOUT_TAG_METADATA = False
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
 GLOBAL_CONTEXT = {
-    HACK_VARIANT : 'dark'
+    HACK_VARIANT: 'dark'
 }
 
 # Add functions here and they will be called with template
