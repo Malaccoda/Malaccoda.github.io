@@ -4,7 +4,7 @@
 .. tags: malaclypse,diskordianismus,magie 
 .. link:
 .. description: Erklaerung des Unterschieds zwischen Technik und Magie 
-.. type: text
+.. type: micro
 .. author: malaclypse
 .. nocomments: true
 
@@ -31,9 +31,9 @@
 
 **verwirrter Besucher:** Weil ein Computer mit Elektronik und nicht mit Magie funktioniert. 
 
-**Malaclypse:** Wie willst du dir da sicher sein, wenn du schon das Programm nicht verstehst? 
+**Malaclypse:** Wie willst du dir da sicher sein, wenn du  das Programm nicht verstehst? 
 
-**verwirrter Besucher:** Das sind aber alles nur 0en und 1en!
+**verwirrter Besucher:** Das sind doch alles nur 0en und 1en!
 
 **Malaclypse:** Sind 0en und 1en etwa nicht magisch? 
 
@@ -43,4 +43,4 @@
 
 **verwirrter Besucher:** Ich hau ab...
 
-**Malaclypse:** Dann eben keine Zaubersprueche fuer dich.* 
+**Malaclypse:** Dann eben keine Zaubersprueche fuer dich.
