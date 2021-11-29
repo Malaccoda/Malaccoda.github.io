@@ -17,7 +17,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Malaclypse"  # (translatable)
-BLOG_TITLE = "Malaclypse-Blog"  # (translatable)
+BLOG_TITLE = "Malaclypse Blog"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://malaccoda.github.io/"
@@ -160,12 +160,13 @@ NAVIGATION_ALT_LINKS = {
 
 # Name of the theme to use.
 THEME = "hack"
+HACK_VARIANT = 'dark'
 
 # A theme color. In default themes, it might be displayed by some browsers as
 # the browser UI color (eg. Chrome on Android). Other themes might also use it
 # as an accent color (the default ones don’t). Must be a HEX value.
-THEME_COLOR = '#212529'
-
+# THEME_COLOR = '#212529'
+#
 # Theme configuration. Fully theme-dependent. (translatable)
 # Samples for bootblog4 (enabled) and bootstrap4 (commented) follow.
 # bootblog4 supports: featured_large featured_small featured_on_mobile
