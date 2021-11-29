@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import time
+# from nikola import filters
 
 # !! This is the configuration of Nikola. !! #
 # !!  You should edit it to your liking.  !! #
@@ -139,25 +140,27 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archiv"),
         ("/categories/", "Tags"),
+        ("/impressum/", "Impressum"),
         ("/rss.xml", "RSS-Feed"),
     ),
-
-    "en": (
-        ("/en/archive.html", "Archive"),
-        ("/en/categories/", "Tags"),
-        ("/en/rss.xml", "RSS feed"),
-    ),
 }
+#    "en": (
+#        ("/en/archive.html", "Archive"),
+#        ("/en/categories/", "Tags"),
+#        ("/impressum/", "Impressum"),
+#        ("/en/rss.xml", "RSS feed"),
+#    ),
+#
 
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
 # although themes may not always support them. (translatable)
 # (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
 NAVIGATION_ALT_LINKS = {
-    DEFAULT_LANG: ()
+        ("/archive.html", "Archiv"),
 }
 
+# DEFAULT_LANG: ()
 # Name of the theme to use.
 THEME = "hack"
 HACK_VARIANT = 'dark'
@@ -341,7 +344,7 @@ COMPILERS = {
 
 # Create by default posts in one file format?
 # Set to False for two-file posts, with separate metadata.
-# ONE_FILE_POSTS = True
+ONE_FILE_POSTS = True
 
 # Preferred metadata format for new posts
 # "Nikola": reST comments, wrapped in a HTML comment if needed (default)
@@ -404,25 +407,29 @@ COMPILERS = {
 
 # If TAG_PAGES_ARE_INDEXES is set to True, each tag's page will contain
 # the posts themselves. If set to False, it will be just a list of links.
-# TAG_PAGES_ARE_INDEXES = False
+TAG_PAGES_ARE_INDEXES = True
 
 # Set descriptions for tag pages to make them more interesting. The
 # default is no description. The value is used in the meta description
 # and displayed underneath the tag list or index page’s title.
 TAG_DESCRIPTIONS = {
     DEFAULT_LANG: {
-        "blogging": "Blog der Ahnungslosigkeit",
-        "open source": "Meine Reise durch die wunderbare Welt der unendlichen Code Zeilen.",
-        "philosophy": "Meine ernuechternden Erfahrungen in der moderne Welt"
-    },
+# "blogging": "Blog der Ahnungslosigkeit",
+# "open source": "Meine Reise durch die wunderbare Welt der unendlichen Code Zeilen.",
+# "philosophy": "Meine ernuechternden Erfahrungen in der moderne Welt"
+        "magie": "Hilfreiche Tipps fuer angehende Shell-Magier",
+        "diskordianismus": "Diskordische Weisheiten."
+   },
  }
 
 # Set special titles for tag pages. The default is "Posts about TAG".
 TAG_TITLES = {
     DEFAULT_LANG: {
-        "blogging": "gesammelte Werke des Unverstaendnis",
-        "open source": "Einsichten eines Laien",
-        "philosophy": "Einsichten eines Misanthropen"
+# "blogging": "gesammelte Werke des Unverstaendnis",
+# "open source": "Einsichten eines Laien",
+# "philosophy": "Einsichten eines Misanthropen"
+    "magie": "Zaubersprueche, Daemonenbeschwoerungen und andere Rituale",
+    "diskordianismus": "Pfeiff nicht wenn du pisst"
     },
  }
 
@@ -479,25 +486,28 @@ CATEGORY_OUTPUT_FLAT_HIERARCHY = False
 
 # If CATEGORY_PAGES_ARE_INDEXES is set to True, each category's page will contain
 # the posts themselves. If set to False, it will be just a list of links.
-# CATEGORY_PAGES_ARE_INDEXES = False
+CATEGORY_PAGES_ARE_INDEXES = True
 
 # Set descriptions for category pages to make them more interesting. The
 # default is no description. The value is used in the meta description
 # and displayed underneath the category list or index page’s title.
 CATEGORY_DESCRIPTIONS = {
     DEFAULT_LANG: {
-        "blogging": "Blog der Ahnungslosigkeit",
-        "open source": "Meine Reise durch die wunderbare Welt der unendlichen Code Zeilen.",
-        "philosophy": "Meine ernuechternden Erfahrungen in der moderne Welt"
+# "open source": "Meine Reise durch die wunderbare Welt der unendlichen Code Zeilen.",
+# "philosophy": "Meine ernuechternden Erfahrungen in der moderne Welt"
+        "magie": "Hilfreiche Tipps fuer angehende Shell-Magier",
+        "diskordianismus": "Diskordische Weisheiten."
     },
  }
 
 # Set special titles for category pages. The default is "Posts about CATEGORY".
 CATEGORY_TITLES = {
     DEFAULT_LANG: {
-        "blogging": "gesammelte Werke des Unverstaendnis",
-        "open source": "Einsichten eines Laien",
-        "philsophy": "Einsichten eines Misanthropen"
+# "blogging": "gesammelte Werke des Unverstaendnis",
+# "open source": "Einsichten eines Laien",
+# "philosophy": "Einsichten eines Misanthropen"
+    "magie": "Zaubersprueche, Daemonenbeschwoerungen und andere Rituale",
+    "diskordianismus": "Pfeiff nicht wenn du pisst"
     },
  }
 
@@ -549,28 +559,29 @@ HIDDEN_CATEGORIES = []
 
 # If ENABLE_AUTHOR_PAGES is set to True and there is more than one
 # author, author pages are generated.
-# ENABLE_AUTHOR_PAGES = True
+ENABLE_AUTHOR_PAGES = True
 
 # Path to author pages. Final locations are:
 # output / TRANSLATION[lang] / AUTHOR_PATH / index.html (list of authors)
 # output / TRANSLATION[lang] / AUTHOR_PATH / author.html (list of posts by an author)
 # output / TRANSLATION[lang] / AUTHOR_PATH / author RSS_EXTENSION (RSS feed for an author)
 # (translatable)
-# AUTHOR_PATH = "authors"
+AUTHOR_PATH = "verfasser"
 
 # If AUTHOR_PAGES_ARE_INDEXES is set to True, each author's page will contain
 # the posts themselves. If set to False, it will be just a list of links.
-# AUTHOR_PAGES_ARE_INDEXES = False
+AUTHOR_PAGES_ARE_INDEXES = True
 
 # Set descriptions for author pages to make them more interesting. The
 # default is no description. The value is used in the meta description
 # and displayed underneath the author list or index page’s title.
-# AUTHOR_PAGES_DESCRIPTIONS = {
-#    DEFAULT_LANG: {
+AUTHOR_PAGES_DESCRIPTIONS = {
+    DEFAULT_LANG: {
 #        "Juanjo Conti": "Python coder and writer.",
 #        "Roberto Alsina": "Nikola father."
-#    },
-# }
+        "malaclypse": "Von uns gibt es viele, ich bin der Duemmere"
+    },
+}
 
 
 # If you do not want to display an author publicly, you can mark it as hidden.
@@ -579,7 +590,7 @@ HIDDEN_CATEGORIES = []
 HIDDEN_AUTHORS = ['Guest']
 
 # Allow multiple, comma-separated authors for a post? (Requires theme support, present in built-in themes)
-# MULTIPLE_AUTHORS_PER_POST = False
+MULTIPLE_AUTHORS_PER_POST = True
 
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
@@ -589,13 +600,13 @@ HIDDEN_AUTHORS = ['Guest']
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
 FRONT_INDEX_HEADER = {
-    DEFAULT_LANG: ''
+    DEFAULT_LANG: 'de'
 }
 
 # Create per-month archives instead of per-year
 # CREATE_MONTHLY_ARCHIVE = False
 # Create one large archive instead of per-year
-# CREATE_SINGLE_ARCHIVE = False
+CREATE_SINGLE_ARCHIVE = True
 # Create year, month, and day archives each with a (long) list of posts
 # (overrides both CREATE_MONTHLY_ARCHIVE and CREATE_SINGLE_ARCHIVE)
 # CREATE_FULL_ARCHIVES = False
@@ -624,11 +635,11 @@ FRONT_INDEX_HEADER = {
 URL_TYPE = 'full_path'
 
 # Extension for RSS feed files
-# RSS_EXTENSION = ".xml"
+RSS_EXTENSION = ".xml"
 
 # RSS filename base (without extension); used for indexes and galleries.
 # (translatable)
-# RSS_FILENAME_BASE = "rss"
+RSS_FILENAME_BASE = "rss"
 
 # Final location for the blog main RSS feed is:
 # output / TRANSLATION[lang] / RSS_PATH / RSS_FILENAME_BASE RSS_EXTENSION
@@ -638,22 +649,22 @@ URL_TYPE = 'full_path'
 # Final location for the blog main Atom feed is:
 # output / TRANSLATION[lang] / ATOM_PATH / ATOM_FILENAME_BASE ATOM_EXTENSION
 # (translatable)
-# ATOM_PATH = ""
+ATOM_PATH = "feed"
 
 # Atom filename base (without extension); used for indexes.
 # (translatable)
 ATOM_FILENAME_BASE = "feed"
 
 # Extension for Atom feed files
-# ATOM_EXTENSION = ".atom"
+ATOM_EXTENSION = ".atom"
 
 # Slug the Tag URL. Easier for users to type, special characters are
 # often removed or replaced as well.
-# SLUG_TAG_PATH = True
+SLUG_TAG_PATH = True
 
 # Slug the Author URL. Easier for users to type, special characters are
 # often removed or replaced as well.
-# SLUG_AUTHOR_PATH = True
+SLUG_AUTHOR_PATH = True
 
 # A list of redirection tuples, [("foo/from.html", "/bar/to.html")].
 #
@@ -697,11 +708,11 @@ GITHUB_COMMIT_SOURCE = True
 # Where the output site should be located
 # If you don't use an absolute path, it will be considered as relative
 # to the location of conf.py
-# OUTPUT_FOLDER = 'output'
+OUTPUT_FOLDER = 'output'
 
 # where the "cache" of partial generated content should be located
 # default: 'cache'
-# CACHE_FOLDER = 'cache'
+CACHE_FOLDER = 'cache'
 
 # Filters to apply to the output.
 # A directory where the keys are either: a file extensions, or
@@ -727,11 +738,10 @@ GITHUB_COMMIT_SOURCE = True
 # <https://getnikola.com/handbook.html#post-processing-filters>
 #
 # from nikola import filters
-# FILTERS = {
-#    ".html": [filters.typogrify],
-#    ".js": [filters.closure_compiler],
-#    ".jpg": ["jpegoptim --strip-all -m75 -v %s"],
-# }
+#FILTERS = {/
+#   ".jpg": ["jpegoptim --strip-all -m75 -v %s"]
+#}
+# ".js": [filters.closure_compiler],
 
 # Executable for the "yui_compressor" filter (defaults to 'yui-compressor').
 # YUI_COMPRESSOR_EXECUTABLE = 'yui-compressor'
@@ -748,7 +758,7 @@ GITHUB_COMMIT_SOURCE = True
 # Executable for the "html_tidy_withconfig", "html_tidy_nowrap",
 # "html_tidy_wrap", "html_tidy_wrap_attr" and "html_tidy_mini" filters
 # (defaults to 'tidy5').
-# HTML_TIDY_EXECUTABLE = 'tidy5'
+HTML_TIDY_EXECUTABLE = 'tidy5'
 
 # List of XPath expressions which should be used for finding headers
 # ({hx} is replaced by headers h1 through h6).
@@ -882,7 +892,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 #
 # If the following is True, INDEXES_PAGES is also displayed on the main (the
 # newest) index page (index.html):
-# INDEXES_PAGES_MAIN = False
+INDEXES_PAGES_MAIN = True
 #
 # If the following is True, index-1.html has the oldest posts, index-2.html the
 # second-oldest posts, etc., and index.html has the newest posts. This ensures
@@ -891,7 +901,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 # If False, index-1.html has the second-newest posts, index-2.html the third-newest,
 # and index-n.html the oldest posts. When this is active, old posts can be moved
 # to other index pages when new posts are added.
-# INDEXES_STATIC = True
+INDEXES_STATIC = False
 #
 # (translatable) If PRETTY_URLS is set to True, this setting will be used to create
 # prettier URLs for index pages, such as page/2/index.html instead of index-2.html.
@@ -901,7 +911,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 #   * a dictionary mapping languages to lists or tuples.
 # Every list or tuple must consist of strings which are used to combine the path;
 # for example:
-#     ['page', '{number}', '{index_file}']
+PRETTY_URLS = ['page', '{number}', '{index_file}']
 # The replacements
 #     {number}     --> (logical) page number;
 #     {old_number} --> the page number inserted into index-n.html before (zero for
@@ -916,7 +926,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 # If the following is true, a page range navigation will be inserted to indices.
 # Please note that this will undo the effect of INDEXES_STATIC, as all index pages
 # must be recreated whenever the number of pages changes.
-# SHOW_INDEX_PAGE_NAVIGATION = False
+SHOW_INDEX_PAGE_NAVIGATION = True
 
 # If the following is True, a meta name="generator" tag is added to pages. The
 # generator tag is used to specify the software used to generate the page
