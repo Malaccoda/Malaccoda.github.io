@@ -162,6 +162,7 @@ NAVIGATION_ALT_LINKS = {
 
 # DEFAULT_LANG: ()
 # Name of the theme to use.
+
 HACK_VARIANT = "dark"
 THEME = "hack"
 
@@ -180,7 +181,8 @@ THEME = "hack"
 # Config for bootblog4:
 THEME_CONFIG = {
     DEFAULT_LANG: {
-        # Show the latest featured post in a large box, with the previewimage as its background.
+        # Show the latest featured post in a large box, with the previewimage
+        # as its background.
         'featured_large': False,
         # Show the first (remaining) two featured posts in small boxes.
         'featured_small': False,
@@ -587,7 +589,8 @@ AUTHOR_PAGES_DESCRIPTIONS = {
 # Tag pages will still be generated.
 HIDDEN_AUTHORS = ['Guest']
 
-# Allow multiple, comma-separated authors for a post? (Requires theme support, present in built-in themes)
+# Allow multiple, comma-separated authors for a post? (Requires theme
+# support, present in built-in themes)
 MULTIPLE_AUTHORS_PER_POST = True
 
 # Final location for the main blog page and sibling paginated pages is
@@ -868,7 +871,8 @@ GALLERIES_DEFAULT_THUMBNAIL = None
 # Images will be scaled down according to IMAGE_THUMBNAIL_SIZE and MAX_IMAGE_SIZE
 # options, but will have to be referenced manually to be visible on the site
 # (the thumbnail has ``.thumbnail`` added before the file extension by default,
-# but a different naming template can be configured with IMAGE_THUMBNAIL_FORMAT).
+# but a different naming template can be configured with
+# IMAGE_THUMBNAIL_FORMAT).
 
 IMAGE_FOLDERS = {'images': 'images'}
 # IMAGE_THUMBNAIL_SIZE = 400
@@ -1139,7 +1143,10 @@ PRETTY_URLS = True
 #       with the MarkdownExtension class and should not be added here.
 # Defaults are markdown.extensions.(fenced_code|codehilite|extra)
 # markdown.extensions.meta is required for Markdown metadata.
-MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.codehilite', 'markdown.extensions.extra']
+MARKDOWN_EXTENSIONS = [
+    'markdown.extensions.fenced_code',
+    'markdown.extensions.codehilite',
+    'markdown.extensions.extra']
 
 # Options to be passed to markdown extensions (See https://python-markdown.github.io/reference/)
 # Default is {} (no config at all)
@@ -1316,7 +1323,8 @@ USE_REST_DOCINFO_METADATA = True
 #     "rest_docinfo": {"summary": "description", "modified": "updated"},
 #     "markdown_metadata": {"summary": "description", "modified": "updated"}
 # }
-# Other examples: https://getnikola.com/handbook.html#mapping-metadata-from-other-formats
+# Other examples:
+# https://getnikola.com/handbook.html#mapping-metadata-from-other-formats
 
 # Map metadata between types/values. (Runs after METADATA_MAPPING.)
 # Supported formats: nikola, yaml, toml, rest_docinfo, markdown_metadata
@@ -1417,9 +1425,9 @@ WARN_ABOUT_TAG_METADATA = False
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
 GLOBAL_CONTEXT = {
-    HACK_VARIANT: 'dark'
+    HACK_VARIANT: "theme"
 }
-
+# GLOBAL_CONTEXT = ['HACK_VARIANT'] = 'dark'
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be
 # rendered

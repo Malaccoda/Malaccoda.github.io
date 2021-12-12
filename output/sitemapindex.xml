@@ -6,12 +6,20 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>https://malaccoda.github.io/categories/cat_discordianism.atom</loc>
+  <lastmod>2021-12-12T14:54:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://malaccoda.github.io/categories/cat_discordianism.xml</loc>
+  <lastmod>2021-12-12T14:54:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://malaccoda.github.io/categories/diskordianismus.atom</loc>
   <lastmod>2021-11-29T13:20:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://malaccoda.github.io/categories/diskordianismus.xml</loc>
-  <lastmod>2021-11-29T13:20:00Z</lastmod>
+  <lastmod>2021-12-12T14:54:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://malaccoda.github.io/categories/magie.atom</loc>
@@ -19,7 +27,7 @@
  </sitemap>
  <sitemap>
   <loc>https://malaccoda.github.io/categories/magie.xml</loc>
-  <lastmod>2021-11-29T13:20:00Z</lastmod>
+  <lastmod>2021-12-12T14:54:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://malaccoda.github.io/categories/malaclypse.atom</loc>
@@ -27,18 +35,26 @@
  </sitemap>
  <sitemap>
   <loc>https://malaccoda.github.io/categories/malaclypse.xml</loc>
-  <lastmod>2021-11-29T13:20:00Z</lastmod>
+  <lastmod>2021-12-12T14:54:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://malaccoda.github.io/categories/snafu.atom</loc>
+  <lastmod>2021-12-12T14:54:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://malaccoda.github.io/categories/snafu.xml</loc>
+  <lastmod>2021-12-12T14:54:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://malaccoda.github.io/feed/feed.atom</loc>
-  <lastmod>2021-11-29T13:20:00Z</lastmod>
+  <lastmod>2021-12-12T14:54:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://malaccoda.github.io/rss.xml</loc>
-  <lastmod>2021-11-29T13:20:00Z</lastmod>
+  <lastmod>2021-12-12T14:54:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://malaccoda.github.io/sitemap.xml</loc>
-  <lastmod>2021-11-29T13:36:00Z</lastmod>
+  <lastmod>2021-12-12T14:54:00Z</lastmod>
  </sitemap>
 </sitemapindex>
