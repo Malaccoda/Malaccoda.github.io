@@ -1,47 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="/assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Malaclypse Blog (Einträge über snafu)</title><link>https://malaccoda.github.io/</link><description></description><atom:link href="https://malaccoda.github.io/categories/snafu.xml" rel="self" type="application/rss+xml"></atom:link><language>de</language><copyright>Contents © 2021 &lt;a href="/pages/impressum"&gt;Malaclypse&lt;/a&gt; </copyright><lastBuildDate>Sun, 12 Dec 2021 15:06:33 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Mutually Uncooperative Multi-</title><link>https://malaccoda.github.io/posts/mutually-uncooperative-multi-/</link><dc:creator>malaclypse</dc:creator><description>&lt;div&gt;&lt;p&gt;Date: 10 May 1982 16:10-EDT
+<?xml-stylesheet type="text/xsl" href="/assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Malaclypse Blog (Einträge über snafu)</title><link>https://malaccoda.github.io/</link><description></description><atom:link href="https://malaccoda.github.io/categories/snafu.xml" rel="self" type="application/rss+xml"></atom:link><language>de</language><copyright>Contents © 2021 &lt;a href="/pages/impressum"&gt;Malaclypse&lt;/a&gt; </copyright><lastBuildDate>Sun, 12 Dec 2021 15:10:04 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Mutually Uncooperative Multi-</title><link>https://malaccoda.github.io/posts/mutually-uncooperative-multi-/</link><dc:creator>malaclypse</dc:creator><description>&lt;div&gt;&lt;p&gt;Date: 10 May 1982 16:10-EDT
 From: Alan Bawden &amp;lt;ALAN at MIT-MC&amp;gt;
 Subject:  From Jeff Shrager's plan file at CMU
 To: INFO-COBOL at MIT-MC, SIPB at MIT-MC&lt;/p&gt;
 &lt;p&gt;A partial trace of a few cycles of MUMPS [Mutually Uncooperative Multi-
 Processing System] execution. (Recreated from memory from datamation many
 years ago.)&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Processor       Message
-=========       =======
-A-12            I've got a problem.
-D-25            Who's in charge here?!
-L-83            What's today's date?
-D-25            Who's doing disk IO?
-X-14            The fifteenth I think.
-A-12            I've got a problem!
-M-32            Huh?  What's the fifteenth?
-B-15            Clear to send.
-X-14            I wasn't talking to you!
-A-12            Aha! Ready to recieve problem?
-B-15            Clear to send.
-A-12            Here's the problem.
-D-25            Who cares?!
-A-12            Stay out of this!
-B-15            Clear to send.
-A-12            Here's the data.
-B-15            Clear to send.
-A-12            What's the answer?
-L-83            What time is it?
-B-15            Clear to send.
-A-12            Hey, where's my result?!
-B-15            Clear to send.
-A-12            What did you do with all the data I gave you?!?!
-B-15            Clear to send.
-A-12            S--t!  Who's in charge here?
-M-32            Who's doing disk IO?
-X-14            08:15:62
-A-12            Huh?
-L-83            He wasn't talking to you...
-M-32            I did disk IO yesterday.
-L-83            Hey, what kind of time is that?!?!?
-M-32            Why am I always stuck with disk IO?
-B-15            Clear to send.
-A-12            Shut up!
-========        ==========&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/div&gt;</description><category>snafu</category><guid>https://malaccoda.github.io/posts/mutually-uncooperative-multi-/</guid><pubDate>Sun, 12 Dec 2021 14:43:47 GMT</pubDate></item></channel></rss>
+&lt;!-- Processor       Message --&gt;
+&lt;!-- =========       ======= --&gt;
+&lt;!-- A-12            I've got a problem. --&gt;
+&lt;!-- D-25            Who's in charge here?! --&gt;
+&lt;!-- L-83            What's today's date? --&gt;
+&lt;!-- D-25            Who's doing disk IO? --&gt;
+&lt;!-- X-14            The fifteenth I think. --&gt;
+&lt;!-- A-12            I've got a problem! --&gt;
+&lt;!-- M-32            Huh?  What's the fifteenth? --&gt;
+&lt;!-- B-15            Clear to send. --&gt;
+&lt;!-- X-14            I wasn't talking to you! --&gt;
+&lt;!-- A-12            Aha! Ready to recieve problem? --&gt;
+&lt;!-- B-15            Clear to send. --&gt;
+&lt;!-- A-12            Here's the problem. --&gt;
+&lt;!-- D-25            Who cares?! --&gt;
+&lt;!-- A-12            Stay out of this! --&gt;
+&lt;!-- B-15            Clear to send. --&gt;
+&lt;!-- A-12            Here's the data. --&gt;
+&lt;!-- B-15            Clear to send. --&gt;
+&lt;!-- A-12            What's the answer? --&gt;
+&lt;!-- L-83            What time is it? --&gt;
+&lt;!-- B-15            Clear to send. --&gt;
+&lt;!-- A-12            Hey, where's my result?! --&gt;
+&lt;!-- B-15            Clear to send. --&gt;
+&lt;!-- A-12            What did you do with all the data I gave you?!?! --&gt;
+&lt;!-- B-15            Clear to send. --&gt;
+&lt;!-- A-12            S- -t!  Who's in charge here? --&gt;
+&lt;!-- M-32            Who's doing disk IO? --&gt;
+&lt;!-- X-14            08:15:62 --&gt;
+&lt;!-- A-12            Huh? --&gt;
+&lt;!-- L-83            He wasn't talking to you... --&gt;
+&lt;!-- M-32            I did disk IO yesterday. --&gt;
+&lt;!-- L-83            Hey, what kind of time is that?!?!? --&gt;
+&lt;!-- M-32            Why am I always stuck with disk IO? --&gt;
+&lt;!-- B-15            Clear to send. --&gt;
+&lt;!-- A-12            Shut up! --&gt;
+&lt;!-- ========        ========== --&gt;&lt;/div&gt;</description><category>snafu</category><guid>https://malaccoda.github.io/posts/mutually-uncooperative-multi-/</guid><pubDate>Sun, 12 Dec 2021 14:43:47 GMT</pubDate></item></channel></rss>
