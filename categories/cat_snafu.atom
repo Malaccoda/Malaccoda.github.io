@@ -3,7 +3,7 @@
 <feed xml:lang="de" xmlns="http://www.w3.org/2005/Atom">
   <title>Malaclypse Blog (Einträge über snafu)</title>
   <id>https://malaccoda.github.io/categories/cat_snafu.atom</id>
-  <updated>2021-12-27T03:51:30Z</updated>
+  <updated>2021-12-27T04:02:33Z</updated>
   <author>
     <name>Malaclypse</name>
   </author>
@@ -19,103 +19,19 @@
       <name>malaclypse</name>
     </author>
     <link rel="alternate" type="text/html" href="https://malaccoda.github.io/posts/bartholomew-roberts-articles/"/>
-    <summary type="html">&lt;div&gt;&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;span class="docutils literal"&gt;&amp;lt;string&amp;gt;&lt;/span&gt;, line 1)&lt;/p&gt;
-&lt;p&gt;Title overline too short.&lt;/p&gt;
-&lt;pre class="literal-block"&gt;........
-I.      Every man shall have an equal vote in affairs of moment. He shall have an equal title to the fresh provisions or strong liquors at any time seized, and shall use them at pleasure unless a scarcity may make it necessary for the common good that a retrenchment may be voted.
-........&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class="section" id="ii-every-man-shall-be-called-fairly-in-turn-by-the-list-on-board-of-prizes-because-over-and-above-their-proper-share-they-are-allowed-a-shift-of-clothes-but-if-they-defraud-the-company-to-the-value-of-even-one-dollar-in-plate-jewels-or-money-they-shall-be-marooned-if-any-man-rob-another-he-shall-have-his-nose-and-ears-slit-and-be-put-ashore-where-he-shall-be-sure-to-encounter-hardships"&gt;
-&lt;h2&gt;II.     Every man shall be called fairly in turn by the list on board of prizes, because over and above their proper share, they are allowed a shift of clothes. But if they defraud the company to the value of even one dollar in plate, jewels or money, they shall be marooned. If any man rob another he shall have his nose and ears slit, and be put ashore where he shall be sure to encounter hardships.&lt;/h2&gt;
-&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;span class="docutils literal"&gt;&amp;lt;string&amp;gt;&lt;/span&gt;, line 5)&lt;/p&gt;
-&lt;p&gt;Title underline too short.&lt;/p&gt;
-&lt;pre class="literal-block"&gt;II.     Every man shall be called fairly in turn by the list on board of prizes, because over and above their proper share, they are allowed a shift of clothes. But if they defraud the company to the value of even one dollar in plate, jewels or money, they shall be marooned. If any man rob another he shall have his nose and ears slit, and be put ashore where he shall be sure to encounter hardships.
-........&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="section" id="iii-none-shall-game-for-money-either-with-dice-or-cards"&gt;
-&lt;h2&gt;III.    None shall game for money either with dice or cards.&lt;/h2&gt;
-&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;span class="docutils literal"&gt;&amp;lt;string&amp;gt;&lt;/span&gt;, line 7)&lt;/p&gt;
-&lt;p&gt;Title underline too short.&lt;/p&gt;
-&lt;pre class="literal-block"&gt;III.    None shall game for money either with dice or cards.
-........&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="section" id="iv-the-lights-and-candles-should-be-put-out-at-eight-at-night-and-if-any-of-the-crew-desire-to-drink-after-that-hour-they-shall-sit-upon-the-open-deck-without-lights"&gt;
-&lt;h2&gt;IV.     The lights and candles should be put out at eight at night, and if any of the crew desire to drink after that hour they shall sit upon the open deck without lights.&lt;/h2&gt;
-&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;span class="docutils literal"&gt;&amp;lt;string&amp;gt;&lt;/span&gt;, line 9)&lt;/p&gt;
-&lt;p&gt;Title underline too short.&lt;/p&gt;
-&lt;pre class="literal-block"&gt;IV.     The lights and candles should be put out at eight at night, and if any of the crew desire to drink after that hour they shall sit upon the open deck without lights.
-........&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="section" id="v-each-man-shall-keep-his-piece-cutlass-and-pistols-at-all-times-clean-and-ready-for-action"&gt;
-&lt;h2&gt;V.      Each man shall keep his piece, cutlass and pistols at all times clean and ready for action.&lt;/h2&gt;
-&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;span class="docutils literal"&gt;&amp;lt;string&amp;gt;&lt;/span&gt;, line 11)&lt;/p&gt;
-&lt;p&gt;Title underline too short.&lt;/p&gt;
-&lt;pre class="literal-block"&gt;V.      Each man shall keep his piece, cutlass and pistols at all times clean and ready for action.
-........&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="section" id="vi-no-boy-or-woman-to-be-allowed-amongst-them-if-any-man-shall-be-found-seducing-any-of-the-latter-sex-and-carrying-her-to-sea-in-disguise-he-shall-suffer-death"&gt;
-&lt;h2&gt;VI.     No boy or woman to be allowed amongst them. If any man shall be found seducing any of the latter sex and carrying her to sea in disguise he shall suffer death.&lt;/h2&gt;
-&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;span class="docutils literal"&gt;&amp;lt;string&amp;gt;&lt;/span&gt;, line 13)&lt;/p&gt;
-&lt;p&gt;Title underline too short.&lt;/p&gt;
-&lt;pre class="literal-block"&gt;VI.     No boy or woman to be allowed amongst them. If any man shall be found seducing any of the latter sex and carrying her to sea in disguise he shall suffer death.
-........&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="section" id="vii-he-that-shall-desert-the-ship-or-his-quarters-in-time-of-battle-shall-be-punished-by-death-or-marooning"&gt;
-&lt;h2&gt;VII.    He that shall desert the ship or his quarters in time of battle shall be punished by death or marooning.&lt;/h2&gt;
-&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;span class="docutils literal"&gt;&amp;lt;string&amp;gt;&lt;/span&gt;, line 15)&lt;/p&gt;
-&lt;p&gt;Title underline too short.&lt;/p&gt;
-&lt;pre class="literal-block"&gt;VII.    He that shall desert the ship or his quarters in time of battle shall be punished by death or marooning.
-........&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="section" id="viii-none-shall-strike-another-on-board-the-ship-but-every-man-s-quarrel-shall-be-ended-on-shore-by-sword-or-pistol-in-this-manner-at-the-word-of-command-from-the-quartermaster-each-man-being-previously-placed-back-to-back-shall-turn-and-fire-immediately-if-any-man-do-not-the-quartermaster-shall-knock-the-piece-out-of-his-hand-if-both-miss-their-aim-they-shall-take-to-their-cutlasses-and-he-that-draweth-first-blood-shall-be-declared-the-victor"&gt;
-&lt;h2&gt;VIII.   None shall strike another on board the ship, but every man's quarrel shall be ended on shore by sword or pistol in this manner. At the word of command from the quartermaster, each man being previously placed back to back, shall turn and fire immediately. If any man do not, the quartermaster shall knock the piece out of his hand. If both miss their aim they shall take to their cutlasses, and he that draweth first blood shall be declared the victor.&lt;/h2&gt;
-&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;span class="docutils literal"&gt;&amp;lt;string&amp;gt;&lt;/span&gt;, line 17)&lt;/p&gt;
-&lt;p&gt;Title underline too short.&lt;/p&gt;
-&lt;pre class="literal-block"&gt;VIII.   None shall strike another on board the ship, but every man's quarrel shall be ended on shore by sword or pistol in this manner. At the word of command from the quartermaster, each man being previously placed back to back, shall turn and fire immediately. If any man do not, the quartermaster shall knock the piece out of his hand. If both miss their aim they shall take to their cutlasses, and he that draweth first blood shall be declared the victor.
-........&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="section" id="ix-no-man-shall-talk-of-breaking-up-their-way-of-living-till-each-has-a-share-of-l-000-every-man-who-shall-become-a-cripple-or-lose-a-limb-in-the-service-shall-have-800-pieces-of-eight-from-the-common-stock-and-for-lesser-hurts-proportionately"&gt;
-&lt;h2&gt;IX.     No man shall talk of breaking up their way of living till each has a share of £l,000. Every man who shall become a cripple or lose a limb in the service shall have 800 pieces of eight from the common stock and for lesser hurts proportionately.&lt;/h2&gt;
-&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;span class="docutils literal"&gt;&amp;lt;string&amp;gt;&lt;/span&gt;, line 19)&lt;/p&gt;
-&lt;p&gt;Title underline too short.&lt;/p&gt;
-&lt;pre class="literal-block"&gt;IX.     No man shall talk of breaking up their way of living till each has a share of £l,000. Every man who shall become a cripple or lose a limb in the service shall have 800 pieces of eight from the common stock and for lesser hurts proportionately.
-........&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="section" id="x-the-captain-and-the-quartermaster-shall-each-receive-two-shares-of-a-prize-the-master-gunner-and-boatswain-one-and-one-half-shares-all-other-officers-one-and-one-quarter-and-private-gentlemen-of-fortune-one-share-each"&gt;
-&lt;h2&gt;X.      The captain and the quartermaster shall each receive two shares of a prize, the master gunner and boatswain, one and one half shares, all other officers one and one quarter, and private gentlemen of fortune one share each.&lt;/h2&gt;
-&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;span class="docutils literal"&gt;&amp;lt;string&amp;gt;&lt;/span&gt;, line 21)&lt;/p&gt;
-&lt;p&gt;Title underline too short.&lt;/p&gt;
-&lt;pre class="literal-block"&gt;X.      The captain and the quartermaster shall each receive two shares of a prize, the master gunner and boatswain, one and one half shares, all other officers one and one quarter, and private gentlemen of fortune one share each.
-........&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="section" id="xi-the-musicians-shall-have-rest-on-the-sabbath-day-only-by-right-on-all-other-days-by-favour-only"&gt;
-&lt;h2&gt;XI.     The musicians shall have rest on the Sabbath Day only by right. On all other days by favour only.&lt;/h2&gt;
-&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;span class="docutils literal"&gt;&amp;lt;string&amp;gt;&lt;/span&gt;, line 23)&lt;/p&gt;
-&lt;p&gt;Title underline too short.&lt;/p&gt;
-&lt;pre class="literal-block"&gt;XI.     The musicians shall have rest on the Sabbath Day only by right. On all other days by favour only.
-........&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;!-- I.::      Every man shall have an equal vote in affairs of moment. He shall have an equal title to the fresh provisions or strong liquors at any time seized, and shall use them at pleasure unless a scarcity may make it necessary for the common good that a retrenchment may be voted. --&gt;
+&lt;!-- II.::     Every man shall be called fairly in turn by the list on board of prizes, because over and above their proper share, they are allowed a shift of clothes. But if they defraud the company to the value of even one dollar in plate, jewels or money, they shall be marooned. If any man rob another he shall have his nose and ears slit, and be put ashore where he shall be sure to encounter hardships. --&gt;
+&lt;!-- III.::    None shall game for money either with dice or cards. --&gt;
+&lt;!-- IV.::     The lights and candles should be put out at eight at night, and if any of the crew desire to drink after that hour they shall sit upon the open deck without lights. --&gt;
+&lt;!-- V.::      Each man shall keep his piece, cutlass and pistols at all times clean and ready for action. --&gt;
+&lt;!-- VI.::     No boy or woman to be allowed amongst them. If any man shall be found seducing any of the latter sex and carrying her to sea in disguise he shall suffer death. --&gt;
+&lt;!-- VII.::    He that shall desert the ship or his quarters in time of battle shall be punished by death or marooning. --&gt;
+&lt;!-- VIII.::   None shall strike another on board the ship, but every man's quarrel shall be ended on shore by sword or pistol in this manner. At the word of command from the quartermaster, each man being previously placed back to back, shall turn and fire immediately. If any man do not, the quartermaster shall knock the piece out of his hand. If both miss their aim they shall take to their cutlasses, and he that draweth first blood shall be declared the victor. --&gt;
+&lt;!-- IX.::     No man shall talk of breaking up their way of living till each has a share of £l,000. Every man who shall become a cripple or lose a limb in the service shall have 800 pieces of eight from the common stock and for lesser hurts proportionately. --&gt;
+&lt;!-- X.::      The captain and the quartermaster shall each receive two shares of a prize, the master gunner and boatswain, one and one half shares, all other officers one and one quarter, and private gentlemen of fortune one share each. --&gt;
+&lt;!-- XI.::     The musicians shall have rest on the Sabbath Day only by right. On all other days by favour only. --&gt;
+&lt;/blockquote&gt;</summary>
     <category term="discordianismus" label="discordianismus"/>
     <category term="snafu" label="snafu"/>
   </entry>
