@@ -11,7 +11,23 @@
  </sitemap>
  <sitemap>
   <loc>https://malaccoda.github.io/categories/cat_discordianism.xml</loc>
-  <lastmod>2021-12-12T15:10:00Z</lastmod>
+  <lastmod>2021-12-27T03:41:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://malaccoda.github.io/categories/cat_snafu.atom</loc>
+  <lastmod>2021-12-27T03:41:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://malaccoda.github.io/categories/cat_snafu.xml</loc>
+  <lastmod>2021-12-27T03:41:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://malaccoda.github.io/categories/discordianismus.atom</loc>
+  <lastmod>2021-12-27T03:41:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://malaccoda.github.io/categories/discordianismus.xml</loc>
+  <lastmod>2021-12-27T03:41:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://malaccoda.github.io/categories/diskordianismus.atom</loc>
@@ -19,7 +35,7 @@
  </sitemap>
  <sitemap>
   <loc>https://malaccoda.github.io/categories/diskordianismus.xml</loc>
-  <lastmod>2021-12-12T14:54:00Z</lastmod>
+  <lastmod>2021-12-27T03:41:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://malaccoda.github.io/categories/magie.atom</loc>
@@ -27,7 +43,7 @@
  </sitemap>
  <sitemap>
   <loc>https://malaccoda.github.io/categories/magie.xml</loc>
-  <lastmod>2021-12-12T14:54:00Z</lastmod>
+  <lastmod>2021-12-27T03:41:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://malaccoda.github.io/categories/malaclypse.atom</loc>
@@ -35,26 +51,26 @@
  </sitemap>
  <sitemap>
   <loc>https://malaccoda.github.io/categories/malaclypse.xml</loc>
-  <lastmod>2021-12-12T14:54:00Z</lastmod>
+  <lastmod>2021-12-27T03:41:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://malaccoda.github.io/categories/snafu.atom</loc>
-  <lastmod>2021-12-12T15:10:00Z</lastmod>
+  <lastmod>2021-12-27T03:41:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://malaccoda.github.io/categories/snafu.xml</loc>
-  <lastmod>2021-12-12T15:10:00Z</lastmod>
+  <lastmod>2021-12-27T03:41:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://malaccoda.github.io/feed/feed.atom</loc>
-  <lastmod>2021-12-12T15:10:00Z</lastmod>
+  <lastmod>2021-12-27T03:41:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://malaccoda.github.io/rss.xml</loc>
-  <lastmod>2021-12-12T15:10:00Z</lastmod>
+  <lastmod>2021-12-27T03:41:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://malaccoda.github.io/sitemap.xml</loc>
-  <lastmod>2021-12-12T15:24:00Z</lastmod>
+  <lastmod>2021-12-27T03:41:00Z</lastmod>
  </sitemap>
 </sitemapindex>
